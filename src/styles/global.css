@@ -1,0 +1,76 @@
+/* global.css */
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: #f8f8f8;
+    color: #222;
+  }
+
+  .layout {
+    min-height: 100vh;        /* Vista completa */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1;                   /* El contingut ocupa tot l’espai disponible */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .page {
+    padding: 1rem;
+  }
+  
+  .page-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .form-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .form-page iframe {
+    width: 100%;
+    border: none;
+  }
+  
+  
+  
+
+  
+  
+  /* Responsive millores */
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 1.5rem;
+    }
+  
+    .page-text {
+      font-size: 0.95rem;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    
+  }
+  

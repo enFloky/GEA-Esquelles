@@ -1,0 +1,26 @@
+  .footer {
+    background-color: #800000;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer .xarxes {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer .xarxes img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer .xarxes img:hover {
+    transform: scale(1.2);
+  }
+  
